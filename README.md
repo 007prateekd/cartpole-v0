@@ -12,7 +12,9 @@ Pyhton 3 is required for running [agent.py](agent.py). The libraries and their v
 After the requirements are satisifed, run the the Python file in terminal with:    
 `python3 cart_pole.py` 
 
-When the file is running, *Iteration Number* and *Mean Rewards* of training phase is displayed. After 150 iterations of training, running the policy learned by the neural network on 100 consecutive episodes yields the final mean reward to of 196.07 ± error.     
+## Observation
+When the file is running, *Iteration Number* and *Mean Rewards* of training phase is displayed. After 150 iterations of training, running the policy learned by the neural network on 100 consecutive episodes yields the final mean reward to of 196.07 ± error. The graph is as follows:   
+![](graph.png)
 
 ## Result
 The neural network successfully learns the policy to balance the pole. Here is the [sample GIF](animation.gif) that shows the pole being balanced for 200 steps:   

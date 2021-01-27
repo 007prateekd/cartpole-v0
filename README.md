@@ -6,7 +6,7 @@ CartPole-v0 defines "solving" as getting average reward of 195.0 (max 200.0) ove
 I have used a simple algorithm called REINFORCE to get an average reward of **196.07** in 100 consecutive episodes on this task. REINFORCE belongs to a special class of Reinforcement Learning algorithms called Policy Gradient algorithms.   
 
 ## Prerequisites & Usage
-Pyhton 3 is required for running [cart_pole.py](cart_pole.py). The libraries and their versions required can be found in the corresponding [requirements.txt](requirements.txt) file. They can be installed with the following command in the terminal:   
+Pyhton 3 is required for running [agent.py](agent.py). The libraries and their versions required can be found in the corresponding [requirements.txt](requirements.txt) file. They can be installed with the following command in the terminal:   
 `pip install -r requirements.txt`   
    
 After the requirements are satisifed, run the the Python file in terminal with:    

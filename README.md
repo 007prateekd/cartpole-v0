@@ -14,7 +14,7 @@ After the requirements are satisifed, run the the Python file in terminal with:
 
 ## Observation
 When the file is running, *Iteration Number* and *Mean Rewards* of training phase is displayed. After 150 iterations of training, running the policy learned by the neural network on 100 consecutive episodes yields the final mean reward to of 196.07 ± error. The graph is as follows:   
-![](graph.png)
+<img src="graph.png" width="450"/>
 
 ## Result
 The neural network successfully learns the policy to balance the pole. Here is the [sample GIF](animation.gif) that shows the pole being balanced for 200 steps:   

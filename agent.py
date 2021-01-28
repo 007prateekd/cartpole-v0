@@ -123,5 +123,9 @@ class CartPoleV0:
         frames = self.get_frames(model)
         self.plot_animation(frames)
 
-agent = CartPoleV0(n_iterations = 150, n_episodes_per_update = 10, n_max_steps = 200, discount_rate = 0.95)
-agent.train_and_plot()
+def main:
+    agent = CartPoleV0(n_iterations = 150, n_episodes_per_update = 10, n_max_steps = 200, discount_rate = 0.95)
+    agent.train_and_plot()
+    
+if __name__ == "__main__":
+    main()

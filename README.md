@@ -10,7 +10,7 @@ Pyhton 3 is required for running [agent.py](agent.py). The libraries and their v
 `pip3 install -r requirements.txt`   
    
 After the requirements are satisifed, run the the Python file in terminal with:    
-`python3 cart_pole.py` 
+`python3 agent.py` 
 
 ## Observation
 When the file is running, *Iteration Number* and *Mean Rewards* of training phase is displayed. After 150 iterations of training, the training reward peaks 200.0. Running the policy learned by the neural network on 100 consecutive episodes yields the final mean reward to of 196.07 ± error. The graph of training error v/s iteration number is as follows:   

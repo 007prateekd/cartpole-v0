@@ -7,7 +7,7 @@ I have used a simple algorithm called REINFORCE to get an average reward of **19
 
 ## Prerequisites & Usage
 Pyhton 3 is required for running [agent.py](agent.py). The libraries and their versions required can be found in the corresponding [requirements.txt](requirements.txt) file. They can be installed with the following command in the terminal:   
-`pip install -r requirements.txt`   
+`pip3 install -r requirements.txt`   
    
 After the requirements are satisifed, run the the Python file in terminal with:    
 `python3 cart_pole.py` 
